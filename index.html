@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
+	<title>Title</title>
+	<meta charset="utf-8">
+	<!--[if IE]>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<![endif]-->
+	<meta name="description" content="">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/main.css" id="color-switcher-link">
+	<link rel="stylesheet" href="css/animations.css">
+	<link rel="stylesheet" href="css/fonts.css">
+	<script src="js/vendor/modernizr-2.6.2.min.js"></script>
+
+	<!--[if lt IE 9]>
+		<script src="js/vendor/html5shiv.min.js"></script>
+		<script src="js/vendor/respond.min.js"></script>
+		<script src="js/vendor/jquery-1.12.4.min.js"></script>
+	<![endif]-->
+
+</head>
+
+<body>
+	<!--[if lt IE 9]>
+		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
+	<![endif]-->
+
+	<div class="preloader">
+		<div class="preloader_image"></div>
+	</div>
+
+
+	<!-- search modal -->
+	<div class="modal" tabindex="-1" role="dialog" aria-labelledby="search_modal" id="search_modal">
+		<div class="widget widget_search">
+			<form method="get" class="searchform form-inline" action="/">
+				<div class="form-group">
+					<input type="text" value="" name="search" class="form-control" placeholder="Search keyword" id="modal-search-input">
+				</div>
+				<button type="submit" class="theme_button">Search</button>
+			</form>
+		</div>
+	</div>
+
+	<!-- wrappers for visual page editor and boxed version of template -->
+	<div id="canvas">
+		<div id="box_wrapper">
+
+			<!-- template sections -->
+
+			<header class="page_header header_white header_transparent table_section">
+				<div class="container">
+					<div class="row">
+						<div class="col-lg-3 col-md-4 col-xs-12">
+							<a href="./" class="logo top_logo">
+								<span class="logo-image"></span>
+								<h1>Qualyderm</h1>
+							</a>
+							<!-- header toggler -->
+							<span class="toggle_menu">
+								<span></span>
+							</span>
+						</div>
+						<div class="col-lg-9 col-md-8 text-right">
+							<!-- main nav start -->
+							<nav class="mainmenu_wrapper">
+								<ul class="mainmenu nav sf-menu">
+									<li class="active">
+										<a href="index.html">Inicio</a>
+									</li>
+
+									<!-- pages -->
+									<li>
+										<a href="#tratamientos">Tratamientos</a>
+									</li>
+									<!-- eof pages -->
+
+									<!-- services -->
+									<li>
+										<a href="#sobre-nosotros">Sobre Nosotros</a>
+									</li>
+									<!-- eof services -->
+
+									<!-- gallery -->
+									<li>
+										<a href="#testimonios">Testimonios</a>
+									</li>
+									<!-- eof Gallery -->
+
+
+									<!-- contacts -->
+									<li>
+										<a href="#reserva">Contacto</a>
+									</li>
+									<!-- eof contacts -->
+
+
+								</ul>
+							</nav>
+							<!-- eof main nav -->
+						</div>
+					</div>
+				</div>
+			</header>
+
+			<section class="intro_section page_mainslider ds">
+				<div class="flexslider">
+					<ul class="slides">
+						<li  style="background-color: white; display: inline-block;">
+							<img src="images/gallery/Qualyderm-medicina-y-estetica-1.jpg" style="opacity: 0.3" alt="">
+							<div class="container">
+								<div class="row">
+									<div class="col-sm-12">
+										<div class="slide_description_wrapper">
+											<div class="slide_description">
+												<div class="intro-layer" data-animation="slideExpandUp">
+													<h3>'Redescubre Tu Belleza'<br> con Qualyderm</h3>
+												</div>
+												<div class="intro-layer" data-animation="slideExpandUp">
+													<p class="fontsize_18 bold">En Qualyderm entendemos que cada etapa de la vida trae consigo nuevas oportunidades para cuidarte y sentirte bien. </p>
+
+													<p class="fontsize_18 bold">Nuestros tratamientos están diseñados para realzar tu belleza natural, rejuvenecer tu piel y ayudarte a sentirte más segura y radiante.</p>
+													
+													<p class="fontsize_18 bold">Ya sea que busques suavizar esas líneas de expresión, redefinir tu silueta, o simplemente disfrutar de una piel más suave y luminosa, estamos aquí para acompañarte en este viaje.</p>
+													
+													<p class="fontsize_18 bold">Porque mereces verte y sentirte increíble en cada momento.</p>
+													<!--<a href="appointment.html" class="theme_button color1">Make an Appointment</a> -->
+												</div>
+											</div>
+											<!-- eof .slide_description -->
+										</div>
+										<!-- eof .slide_description_wrapper -->
+									</div>
+									<!-- eof .col-* -->
+								</div>
+								<!-- eof .row -->
+							</div>
+							<!-- eof .container -->
+						</li>
+					</ul>
+				</div>
+				<!-- eof flexslider -->
+			</section>
+			
+
+			<section class="ls columns_padding_0 columns_margin_0" id="features-section">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="with_padding maindarker3_bg_color topborder_radius_4 feature-teaser">
+								<img src="./img/certification.png" alt="" class="teaser_icon">
+								<p class="fontsize_18 semibold topmargin_15 bottommargin_5">Certification</p>
+								<p class="margin_0">
+									Corned beef pancetta ut, aliquip tri-tip turducken pork chop. Cow beef eu bacon jowl pastrami.
+								</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="with_padding maindarker2_bg_color topborder_radius_4 feature-teaser">
+								<img src="./img/time.png" alt="" class="teaser_icon">
+								<p class="fontsize_18 semibold topmargin_15 bottommargin_5">24/7 Opened</p>
+								<p class="margin_0">
+									Dolor corned beef ipsum, nulla filet mignon flank in ut minim. Boudin landjaeger pork belly.
+								</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="with_padding maindarker1_bg_color topborder_radius_4 feature-teaser">
+								<img src="./img/personal.png" alt="" class="teaser_icon">
+								<p class="fontsize_18 semibold topmargin_15 bottommargin_5">Professional Staff</p>
+								<p class="margin_0">
+									Pork belly chicken nulla swine. Occaecat culpa dolor beef ribs adipisicing et tri-tip eu esse.
+								</p>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 col-xs-12">
+							<div class="with_padding main_bg_color topborder_radius_4 feature-teaser">
+								<img src="./img/like.png" alt="" class="teaser_icon ">
+								<p class="fontsize_18 semibold topmargin_15 bottommargin_5">Fair Prices</p>
+								<p class="margin_0">
+									Lorem chicken culpa, sed filet mignon chuck shank ground und in id laboris laborum short.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="ls ms page_banner section_padding_50 texture_bg">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="banner border_radius_4 scheme_background">
+								<div class="banner-content border_radius_4 text-center">
+									<div class="icon scheme_background"></div>
+									<h1 class="fontsize_24 regular bottommargin_10">Los Secretos para una Piel Radiante Después de los 40</h1>
+									<p class="bold highlight2 ">Descubre en esta guía esencial cómo mantener tu piel luminosa y saludable a medida que pasan los años. Aprende sobre los mejores tratamientos estéticos, rutinas de cuidado diarias, y consejos de expertos para prevenir y tratar los signos del envejecimiento. Todo lo que necesitas saber para sentirte más segura y radiante que nunca.</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			
+			<section class="ls ms section_padding_50">
+				<div class="container">
+					<h3 class="topmargin_0 text-center">¿Por Qué Elegir Qualyderm?</h3>
+					<div class="row">
+						<div class="col-sm-4">
+							<div class="bg_teaser after_cover color_bg_1">
+								<img src="images/gallery/tratapersonalizado.jpeg" alt="">
+								<div class="teaser_content media">
+									<div class="teaser text-center">
+										<div class="teaser_icon highlight2 size_big">
+											<i class="rt-icon2-heart2"></i>
+										</div>
+										<h4>Tratamientos personalizados para resultados visibles</h4>
+									</div>
+
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="bg_teaser after_cover color_bg_2">
+								<img src="images/gallery/tecnologias.jpg" alt="">
+								<div class="teaser_content media">
+									<div class="teaser text-center">
+										<div class="teaser_icon grey size_big">
+											<i class="rt-icon2-leaf"></i>
+										</div>
+										<h4>Tecnología avanzada y los mejores especialistas</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="col-sm-4">
+							<div class="bg_teaser after_cover color_bg_3">
+								<img src="images/gallery/saludybelleza.jpeg" alt="">
+								<div class="teaser_content media">
+									<div class="teaser text-center">
+										<div class="teaser_icon highlight size_big">
+											<i class="fa fa-star-half-o"></i>
+										</div>
+										<h4>Enfocados en la salud y belleza de tu piel</h4>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section id="testimonios" class="ls section_padding_110">
+				<div class="container">
+					<div class="row topmargin_-5">
+						<div class="col-sm-12 text-center">
+							<h2 class="section_header margin_0">Lo que Dicen Nuestras Clientas</h2>
+							<hr class="main_bg_color dividersize_2_70 inline-block">
+
+							<div class="owl-carousel testimonials-owl-carousel topmargin_50" data-margin="30" data-items="9" data-loop="true" data-dots="true" data-nav="false" data-autoplay="false" data-responsive-xs="1" data-responsive-sm="2" data-responsive-md="3" data-responsive-lg="3">
+
+								<div class="vertical-item testimonial-item">
+									<div class="item-media bottommargin_25">
+										<div class="with_backing small">
+											<img src="images/face01.jpg" alt="">
+										</div>
+									</div>
+									<div class="item-content">
+										<blockquote>
+											"Boudin jerky short ribs occaecat, labore ad consectetur velit ex ground round tenderloin. Deserunt tongue sunt pork belly velit leberkas"
+											<div class="item-meta">
+												<h6>Bella Franklin</h6>
+												<div class="signature signature-signature3"></div>
+											</div>
+										</blockquote>
+									</div>
+								</div>
+
+								<div class="vertical-item testimonial-item">
+									<div class="item-media bottommargin_25">
+										<div class="with_backing small">
+											<img src="images/face02.jpg" alt="">
+										</div>
+									</div>
+									<div class="item-content">
+										<blockquote>
+											"Pork chop drumstick eiusmod, short ribs short loin boudin ground round pork loin in ham hock excepteur occaecat chuck esse labore"
+											<div class="item-meta">
+												<h6>Kamil Ataturk</h6>
+												<div class="signature signature-signature2"></div>
+											</div>
+										</blockquote>
+									</div>
+								</div>
+
+								<div class="vertical-item testimonial-item">
+									<div class="item-media bottommargin_25">
+										<div class="with_backing small">
+											<img src="images/face03.jpg" alt="">
+										</div>
+									</div>
+									<div class="item-content">
+										<blockquote>
+											"Esse duis in ut, ea pork chop aute ut tempor cupidatat. Tempor bresaola do et beef tail. In reprehenderit kevin ad jerky anim flank velit turkey officia"
+											<div class="item-meta">
+												<h6>Henry James</h6>
+												<div class="signature signature-signature1"></div>
+											</div>
+										</blockquote>
+									</div>
+								</div>
+
+								<div class="vertical-item testimonial-item">
+									<div class="item-media bottommargin_25">
+										<div class="with_backing small">
+											<img src="images/face01.jpg" alt="">
+										</div>
+									</div>
+									<div class="item-content">
+										<blockquote>
+											"Boudin jerky short ribs occaecat, labore ad consectetur velit ex ground round tenderloin. Deserunt tongue sunt pork belly velit leberkas"
+											<div class="item-meta">
+												<h6>Bella Franklin</h6>
+												<div class="signature signature-signature3"></div>
+											</div>
+										</blockquote>
+									</div>
+								</div>
+
+								<div class="vertical-item testimonial-item">
+									<div class="item-media bottommargin_25">
+										<div class="with_backing small">
+											<img src="images/face02.jpg" alt="">
+										</div>
+									</div>
+									<div class="item-content">
+										<blockquote>
+											"Pork chop drumstick eiusmod, short ribs short loin boudin ground round pork loin in ham hock excepteur occaecat chuck esse labore"
+											<div class="item-meta">
+												<h6>Kamil Ataturk</h6>
+												<div class="signature signature2"></div>
+											</div>
+										</blockquote>
+									</div>
+								</div>
+
+								<div class="vertical-item testimonial-item">
+									<div class="item-media bottommargin_25">
+										<div class="with_backing small">
+											<img src="images/face03.jpg" alt="">
+										</div>
+									</div>
+									<div class="item-content">
+										<blockquote>
+											"Esse duis in ut, ea pork chop aute ut tempor cupidatat. Tempor bresaola do et beef tail. In reprehenderit kevin ad jerky anim flank velit turkey officia"
+											<div class="item-meta">
+												<h6>Henry James</h6>
+												<div class="signature signature1"></div>
+											</div>
+										</blockquote>
+									</div>
+								</div>
+
+								<div class="vertical-item testimonial-item">
+									<div class="item-media bottommargin_25">
+										<div class="with_backing small">
+											<img src="images/face01.jpg" alt="">
+										</div>
+									</div>
+									<div class="item-content">
+										<blockquote>
+											"Boudin jerky short ribs occaecat, labore ad consectetur velit ex ground round tenderloin. Deserunt tongue sunt pork belly velit leberkas"
+											<div class="item-meta">
+												<h6>Bella Franklin</h6>
+												<div class="signature signature3"></div>
+											</div>
+										</blockquote>
+									</div>
+								</div>
+
+								<div class="vertical-item testimonial-item">
+									<div class="item-media bottommargin_25">
+										<div class="with_backing small">
+											<img src="images/face02.jpg" alt="">
+										</div>
+									</div>
+									<div class="item-content">
+										<blockquote>
+											"Pork chop drumstick eiusmod, short ribs short loin boudin ground round pork loin in ham hock excepteur occaecat chuck esse labore"
+											<div class="item-meta">
+												<h6>Kamil Ataturk</h6>
+												<div class="signature signature-signature2"></div>
+											</div>
+										</blockquote>
+									</div>
+								</div>
+
+								<div class="vertical-item testimonial-item">
+									<div class="item-media bottommargin_25">
+										<div class="with_backing small">
+											<img src="images/face03.jpg" alt="">
+										</div>
+									</div>
+									<div class="item-content">
+										<blockquote>
+											"Esse duis in ut, ea pork chop aute ut tempor cupidatat. Tempor bresaola do et beef tail. In reprehenderit kevin ad jerky anim flank velit turkey officia"
+											<div class="item-meta">
+												<h6>Henry James</h6>
+												<div class="signature signature-signature1"></div>
+											</div>
+										</blockquote>
+									</div>
+								</div>
+
+							</div>
+							<!-- .owl-carousel -->
+
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- start section reservar -->			
+			<section id="reserva" class="ls ms page_banner section_padding_50 texture_bg">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+							<div class="reservation-banner border_radius_4 scheme_background">
+								<div id="reservar" class="banner-content border_radius_4 text-center">
+									<p class="fontsize_24 regular bottommargin_10">Reserva tu Consulta Gratis</p>
+									<p class="bold highlight2">Nuestro equipo está listo para ayudarte a lucir y sentirte mejor</p>
+									<form action="#" method="post" class="d-flex justify-content-center">
+											<input type="text" name="nombre" class="form-control" placeholder="Tu nombre">
+											<input type="email" name="email" class="form-control" placeholder="Tu correo electrónico">
+											<input type="number" name="telefono" class="form-control" placeholder="Tu Numero de Telefono">
+										<div class="scheme_background">
+											<button type="submit" id="contact_form_submit" name="contact_submit" class="theme_button wide_button color1">Agenda Ahora</button>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>			
+			<!-- end section reservar -->
+			<section id="tratamientos" class="ls section_padding_110">
+				<div class="container">
+					<div class="row topmargin_-5">
+						<div class="col-sm-12 text-center">
+							<h2 class="section_header margin_0">Nuestros Tratamientos Más Populares</h2>
+							<hr class="dividersize_2_70 inline-block main_bg_color">
+						</div>
+					</div>
+					<div class="row topmargin_30">
+						<div class="col-md-4">
+							<article class="vertical-item with_border thick_border border_radius_4 post text-center">
+								<div class="item-media entry-thumbnail">
+									<img src="./images/gallery/rejuvenecimiento-facial.jpg" alt="">
+								</div>
+								<header class="entry-header scheme_background">
+									<a href="blog-single-right.html" class="with_padding">
+										<h4 class="entry-title">Rejuvenecimiento Facial</h4>
+									</a>
+								</header>
+								<div class="item-content item-tratamiento ">
+									<p>
+										Trata todos los signos de envejecimiento cutáneo. Mediante la aplicación de la luz intensa pulsada se
+										consigue una homogeneización de la estructura epidérmica, eliminación de manchas y estimulación de
+										colágeno...
+									</p>
+								</div>
+								<div class="">
+									<a href="#" class="theme_button color1">Ver Todos los Tratamientos</a>
+									</div>
+							</article>
+						</div>
+						
+						<div class="col-md-4">
+							<article class="vertical-item with_border thick_border border_radius_4 post text-center">
+								<div class="item-media entry-thumbnail">
+									<img src="./images/gallery/laser-facial.jpg" alt="">
+								</div>
+								<header class="entry-header scheme_background">
+									<a href="blog-single-right.html" class="with_padding">
+										<h4 class="entry-title"> Depilación Láser</h4>
+									</a>
+								</header>
+								<div class="item-content item-tratamiento ">
+									<p>
+										La depilación láser es la técnica mas utilizada para la eliminación del pelo, su objetivo es eliminar el folículo piloso
+										sin dañar el tejido circundante.
+								</div>
+								<div class="">
+									<a href="#" class="theme_button color1">Ver Todos los Tratamientos</a>
+								</div>
+							</article>
+						</div>
+
+						<div class="col-md-4">
+							<article class="vertical-item with_border thick_border border_radius_4 post text-center">
+								<div class="item-media entry-thumbnail">
+									<img src="./images/gallery/tratamiento-corporal.jpg" alt="">
+								</div>
+								<header class="entry-header scheme_background">
+									<a href="blog-single-right.html" class="with_padding">
+										<h4 class="entry-title">Tratamientos Corporales</h4>
+									</a>
+								</header>
+								<div class="item-content item-tratamiento ">
+									<p> 
+										Redefine tu silueta y siéntete bien.
+									</p>
+								</div>
+								<div class="">
+									<a href="#" class="theme_button color1">Ver Todos los Tratamientos</a>
+								</div>
+							</article>
+						</div>
+
+					</div>
+				</div>
+			</section>
+			<section id="sobre-nosotros" class="ls section_padding_110 sobre-nosotros">
+				<div class="container">
+					<h2 class="title mt-5 text-center">CENTRO DE MEDICINA Y ESTÉTICA EN MADRID</h2>
+			
+					<div class="content mt-5">
+						<p>Este <strong>centro de medicina y estética</strong> está formado por un equipo de profesionales con más de 25 años de experiencia dedicado al estudio de la belleza. Para ello dispone de diferentes áreas de trabajo: El área de estética cuenta con su directora, técnica <strong>especialista en estética</strong> con una amplia trayectoria, siempre buscando la innovación, tecnología y activos más adecuados a cada cliente, aportando rigor y seriedad a cada tratamiento como si fuese el único.</p>
+			
+						<p>En el área de <strong>Medicina Estética</strong>, nuestra doctora pionera en técnicas de infiltración y especialista en rejuvenecimiento integral. Licenciada en <strong>Medicina y Cirugía</strong>, Diplomatura en bases clínicas en medicina y cirugía cosmética, Diplomatura en medicina del envejecimiento.</p>
+			
+						<p>En el área de Cirugía contamos con un cirujano plástico elegido como uno de los mejores de Madrid. Médico especialista en cirugía plástica, estética y reconstructiva Miembro de la sociedad española de cirujanos plásticos y reparadores estéticos (Secpre). Realiza todos los procedimientos estéticos con las técnicas más innovadoras, consiguiendo mínimos periodos de convalecencia post-operatoria.</p>
+			
+						<p>Estas áreas trabajan conjuntamente para asesorarte y ayudarte a encontrar la mejor solución a tu problema, estudiamos cada caso de manera particular, para obtener el mejor resultado.</p>
+					</div>
+				</div>
+			
+			</section>
+			<footer class="page_footer theme_footer cs section_padding_top_50 section_padding_bottom_65">
+				<div class="container">
+					<div class="row bottommargin_5">
+						<div class="col-md-3 col-sm-6 to_animate" data-animation="scaleAppear">
+							<div class="widget widget_text topmargin_5">
+								<div class="bottommargin_15">
+									<div class="logo-bottom"></div>
+									<h1>Medent</h1>
+								</div>
+								<p>
+									Sausage nulla velit, spare ribs picanha jerky ball tip pork chop turkey ut id beef ribs kielbasa capicola.
+								</p>
+
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 to_animate" data-animation="scaleAppear">
+							<div class="widget widget_text topmargin_20">
+								<h6>contact info</h6>
+								<hr class="dividersize_2_35 margin_0">
+								<div class="media">
+									<div class="media-left">
+										<i class="fa fa-map-marker highlight fontsize_18"></i>
+									</div>
+									<div class="media-body">
+										28 Lincoln Blvd, Santa Monica
+									</div>
+								</div>
+								<div class="media">
+									<div class="media-left">
+										<i class="fa fa-clock-o highlight fontsize_18"></i>
+									</div>
+									<div class="media-body">
+										09:00 - 22:00
+									</div>
+								</div>
+								<div class="media">
+									<div class="media-left">
+										<i class="fa fa-phone highlight fontsize_18"></i>
+									</div>
+									<div class="media-body">
+										0 (800) 375 45 65
+									</div>
+								</div>
+							</div>
+
+						</div>
+						<div class="col-md-3 col-sm-6 to_animate" data-animation="scaleAppear">
+							<div class="widget widget_text topmargin_20">
+								<h6>Testimonials</h6>
+								<hr class="dividersize_2_35 margin_0">
+								<blockquote>
+									"Pork chop drumstick eiusmod, short ribs short loin boudin ground round pork loin in ham hock excepteur occaecat"
+								</blockquote>
+								<div class="signature signature1"></div>
+							</div>
+						</div>
+						<div class="col-md-3 col-sm-6 to_animate" data-animation="scaleAppear">
+							<div class="widget widget_text topmargin_20">
+								<h6>Enlaces legales</h6>
+								<hr class="dividersize_2_35 margin_0">
+								<div class="legal-links-media ">
+									<div class="media-body">
+										<p><a>Aviso Legal</a></p>
+									</div>
+								</div>
+								<div class="legal-links-media">
+									<div class="media-body">
+										<a>Politica de privacidad</a>
+									</div>
+								</div>
+								<div class="legal-links-media">
+									<div class="media-body">
+										<a>Política de Cookies</a>
+									</div>
+								</div>
+								<div class="legal-links-media">
+									<div class="media-body">
+										<a>Condiciones Generales de Contratación</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<!-- eof #box_wrapper -->
+	</div>
+	<!-- eof #canvas -->
+
+	<script src="js/compressed.js"></script>
+	<script src="js/main.js"></script>
+
+
+</body>
+
+</html>
