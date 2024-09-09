@@ -6874,6 +6874,10 @@ aside .widget_tag_cloud a:hover {
 	color: #4fc9e0;
 }
 
+.image-container {
+opacity: 0.3;
+}
+
 /* sobre nosotros*/
 .sobre-nosotros{
 	background-image: url("../images/Centro-de-medicina-y-estética-en-Madrid-Qualyderm.jpeg");
@@ -6888,6 +6892,7 @@ aside .widget_tag_cloud a:hover {
 	color: white;
 	height: 768px;
 }
+
 
 
 .sobre-nosotros h2.title {
@@ -6962,6 +6967,9 @@ aside .widget_tag_cloud a:hover {
 		height: 144px;
 		width: 90%;
 	}
+	.image-container {
+		opacity: 0.6;
+		}
 }
 
 .alignleft.one-third,
